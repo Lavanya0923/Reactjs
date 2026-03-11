@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 
 const INITIAL_STUDENTS = [
-  { id: 1, name: "Aisha Patel", email: "aisha.patel@university.edu", age: 21 },
-  { id: 2, name: "Marcus Chen", email: "m.chen@university.edu", age: 23 },
-  { id: 3, name: "Sofia Herrera", email: "sofia.h@university.edu", age: 20 },
-  { id: 4, name: "James Okafor", email: "j.okafor@university.edu", age: 22 },
-  { id: 5, name: "Priya Nair", email: "priya.nair@university.edu", age: 24 },
+  { id: 1, name: "Lavanya", email: "Lavanya@university.edu", age: 21 },
+  { id: 2, name: "Priya", email: "Priya@university.edu", age: 23 },
+  { id: 3, name: "Steve", email: "Steve@university.edu", age: 20 },
+  { id: 4, name: "Pradeep", email: "Pradeep@university.edu", age: 22 },
+  { id: 5, name: "Mamitha", email: "Mamitha@university.edu", age: 24 },
 ];
 
 let nextId = 6;
